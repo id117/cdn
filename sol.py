@@ -47,4 +47,5 @@ import sys
 sys.path = ['.']+sys.path
 import os
 os.system('bin/python tsts.py')
+zero_or_one=lambda n,s:[i>n/2for i in map(sum,zip(*s))]
 a=lambda n,s:[i>n/2for i in map(sum,zip(*s))]
